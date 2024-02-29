@@ -1,9 +1,9 @@
 const prompt =require("prompt-sync")()
 
       // ENTRADA:
-      let a = Number(prompt("Informe o valor do termo A: "))
-      let b = Number(prompt("Informe o valor do termo B: "))
-      let c = Number(prompt("Informe o valor do termo C: "))
+      const a = Number(prompt("Informe o valor do termo A: "))
+      const b = Number(prompt("Informe o valor do termo B: "))
+      const c = Number(prompt("Informe o valor do termo C: "))
       
       // PROCESSAMENTO
       let delta = (b * b) - (4 * a * c);
